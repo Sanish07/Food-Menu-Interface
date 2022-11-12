@@ -25,7 +25,7 @@ app.use("", MainRoutes);
 mongoose.connect(process.env.APP_DB_URI).then(()=>{
     server.listen(PORT, ()=>{
         console.log("Database is connected!");
-        console.log(`App is running on PORT ${PORT}`);
+        console.log(`App is running on port ${PORT}`);
     });
 }).catch((error)=>{
     console.log("Unable to connect the Database");

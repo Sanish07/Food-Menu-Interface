@@ -1,5 +1,14 @@
 <%- include('./partials/header.ejs') -%>
 
 Home File
+<% shopData.forEach(shop => { %>
+    <h1> <%= shop.shopDetails.shopName %> (Rating : <%= shop.reviews %>) </h1>
+    <h2> <%= shop.shopDetails.contactDetails.shopProfile %> </h2>
+    <ul>
+        <% shop.foodAvailable.forEach(food =>{ %>
+            <li><%= food.foodId+". "+food.foodName+", Price : Rs."+food.foodPrice %></li>
+        <% }) %>
+    </ul>   
+<% }); %>
 
 <%- include('./partials/footer.ejs') -%>

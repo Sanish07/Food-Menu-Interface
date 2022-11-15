@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 h1{
-    color : #722921;
+    color: blueviolet;
+}
+
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 4vw;
+    align-items: flex-start;
+    margin: auto 10vw;
+}
+
+.grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+  
+.grid > article img {
+    max-width: 100%;
+}
+  
+.text {
+    padding: 0 20px 20px;
+}
+
+.text h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text p{
+    font-family: 'Lato', sans-serif;
+    color: #5e5a5a;
+}
+
+.text > a >button {
+    background: #E0144C;
+    font-family: 'Noto Sans', sans-serif;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.text > a > button:hover{
+    background : #FF5858;
+    transition: ease-in-out 600ms;
 }

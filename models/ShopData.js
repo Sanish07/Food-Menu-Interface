@@ -17,7 +17,8 @@ const shopData = new mongoose.Schema({
         foodId : {type : Number, min : 1000},
         foodName : {type : String},
         foodPrice : {type : Number}
-    }]
+    }],
+    imageURL : {type : String}
 });
 
 module.exports = mongoose.model("ShopData", shopData);

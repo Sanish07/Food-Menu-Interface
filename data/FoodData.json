@@ -1,0 +1,82 @@
+{
+    "foodData" : [
+    {
+        "foodId" : 1001,
+        "foodName" : "Chocolate Cake",
+        "foodImage" : "https://www.hersheyland.com/content/dam/hersheyland/en-us/recipes/recipe-images/2_Hersheys_Perfectly_Chocolate_Cake_11-18.jpeg",
+        "foodDes" : "Chocolate cake or chocolate gâteau is a cake flavored with melted chocolate, cocoa powder, or both."
+
+    }, 
+    {
+        "foodId" : 1002,
+        "foodName" : "Dosa",
+        "foodImage" : "https://i.cdn.newsbytesapp.com/images/l198_38691591249558.jpg",
+        "foodDes" : "Dosa is a popular South Indian thin crepe made with fermented rice and lentil batter."
+    },
+    {
+        "foodId" : 1003,
+        "foodName" : "Idli",
+        "foodImage" : "https://images.indianexpress.com/2020/02/idli_759.jpg",
+        "foodDes" : "Idli is a steamed food, made with with a fermented batter of rice, urad dal and fenugreek seeds. White and fluffy, it is a delight to bite into."
+    },
+    {
+        "foodId" : 1004,
+        "foodName" : "Porridge",
+        "foodImage" : "https://img-global.cpcdn.com/recipes/e31c118838b321b4/1200x630cq70/photo.jpg",
+        "foodDes" : "Porridge is a thick soup made of boiled oats, rice, or other grains typically flavored with sugar, honey, or other sweet, warming spices."
+    },
+    {
+        "foodId" : 1005,
+        "foodName" : "Southern Meals",
+        "foodImage" : "https://www.thestatesman.com/wp-content/uploads/2022/02/Tasty-South-Indian-break-fast-Photo-istock-1-1024x683.jpg",
+        "foodDes" : "Consists of Idli, Dosa, Vada, Sambar, Chutney, Upma, Poori, Pongal, Bisi Bele Bath, Appam, Idiyappam, etc."
+    },
+    {
+        "foodId" : 1006,
+        "foodName" : "Fruit Milkshakes",
+        "foodImage" : "https://i.pinimg.com/736x/70/f3/b1/70f3b155ad29b96ba930e68273d1c646.jpg",
+        "foodDes" : "Milkshake is a sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, chocolate syrup, etc."
+    },
+    {
+        "foodId" : 1009,
+        "foodName" : "Mojitos",
+        "foodImage" : "https://static.diariovasco.com/www/multimedia/202208/18/media/cortadas/MOJITOS_SABORES-RybWnXRGsekTR385ADdgs6J-1248x770@Diario%20Vasco.jpg",
+        "foodDes" : "Mojito is one of the world's most popular cocktails. It's a simple mixed drink of mint, lime, sugar, and club soda, and a muddler."
+    },
+    {
+        "foodId" : 1011,
+        "foodName" : "Fruit Juices",
+        "foodImage" : "https://media.herworld.com/public/2018/07/story/43684986_l_edit.jpg",
+        "foodDes" : "Made purely from the extraction of the natural liquid contained in fruits and served readily."
+    },
+    {
+        "foodId" : 1017,
+        "foodName" : "Waffles",
+        "foodImage" : "https://i.ytimg.com/vi/yN2z5X43mjk/maxresdefault.jpg",
+        "foodDes" : "Waffles are made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression."
+    },
+    {
+        "foodId" : 1021,
+        "foodName" : "Potato Chips",
+        "foodImage" : "https://www.eatthis.com/wp-content/uploads/sites/4/2018/09/bowl-potato-chips.jpg",
+        "foodDes" : "Potato chips (often just chips), or crisps are thin slices of potato that have been either deep fried or baked until crunchy."
+    },
+    {
+        "foodId" : 1022,
+        "foodName" : "Cookies",
+        "foodImage" : "https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg",
+        "foodDes" : "Cookies are baked or cooked snacks or desserts that are typically small, flat and sweet. Often preferred to serve with beverages and milk."
+    },
+    {
+        "foodId" : 1023,
+        "foodName" : "Chocolate Box",
+        "foodImage" : "https://www.butlerschocolates.com/upload/637/cms/525231/en/42110/boxed-chocolates.jpg",
+        "foodDes" : "Chocolate is manufactured from cacao beans. It is a common ingredient in ice cream, pudding, cakes, confectionery, and Easter eggs, among other delicacies."
+    },
+    {
+        "foodId" : 1032,
+        "foodName" : "Jalebi",
+        "foodImage" : "https://hindi.cdn.zeenews.com/hindi/sites/default/files/2021/08/28/909275-how-to-make-jalebi.jpg",
+        "foodDes" : "Jalebi is a spiral shaped crisp & juicy sweet made with all-purpose flour, gram flour and sugar syrup."
+    }]
+}

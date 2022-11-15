@@ -1,7 +1,7 @@
 <%- include('./partials/header.ejs') -%>
 
-Home File
-<% shopData.forEach(shop => { %>
+<% /* %>
+    <% shopData.forEach(shop => { %>
     <h1> <%= shop.shopDetails.shopName %> (Rating : <%= shop.reviews %>) </h1>
     <h2> <%= shop.shopDetails.contactDetails.shopProfile %> </h2>
     <ul>
@@ -9,6 +9,27 @@ Home File
             <li><%= food.foodId+". "+food.foodName+", Price : Rs."+food.foodPrice %></li>
         <% }) %>
     </ul>   
+<% }); %> 
+<% */ %>
+
+
+<!-- Main Starts from here -->
+<main class="grid">
+<% foodData.forEach((food)=>{ %>
+    <article>
+        <img src=<%= food.foodImage %> alt=<%= food.foodName %>>
+        <div class="text">
+          <h3><%= food.foodName %></h3>
+          <p><%= food.foodDes %></p>
+          <a href=<%= "/food/"+food.foodId %>><button>Check Availablity</button></a>
+        </div>
+      </article>
 <% }); %>
+</main>
+
+    
+  
+
+
 
 <%- include('./partials/footer.ejs') -%>

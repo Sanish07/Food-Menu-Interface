@@ -1,0 +1,9 @@
+<%- include("./partials/header.ejs") -%>
+
+<div class="shop-list">
+<% shopData.forEach((shop, index) => { %>
+    <h1 class="shop-head"><a href=<%= "/shop/"+shop.shopDetails.shopId %>><%= shop.shopDetails.shopName %></a></h1>  
+    <p> Price Rs. <%= prices[index] %>/- </p>
+<% }); %>
+</div>
+<%- include("./partials/footer.ejs") -%>

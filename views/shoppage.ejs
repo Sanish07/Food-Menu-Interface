@@ -1,0 +1,21 @@
+<%- include("./partials/header.ejs") -%>
+<div class="shop-info">
+    <img class="shop-img" src=<%= shopInfo.imageURL %> />
+<h1><%= shopInfo.shopDetails.shopName %></h1>
+<h3>Reviews : <%= shopInfo.reviews %> ⭐</h3>
+<h4> Timings : </h4>
+<ul>
+    <% let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; %>
+    <% shopInfo.timings.forEach((day, index)=>{ %>
+       <li><%= days[index] %> : <%= day %></li>
+    <% }) %>
+</ul>
+<h4> Foods Available : </h4>
+<ul>
+    <% shopInfo.foodAvailable.forEach((food, index)=>{ %>
+       <li><%= food.foodName %></li>
+    <% }) %>
+</ul>
+</div>
+
+<%- include("./partials/footer.ejs") -%>
